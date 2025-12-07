@@ -1,61 +1,33 @@
-# CHANGELOG.md
+# Changelog
 
-## [3.0.0] - 2025-02-04
+All notable changes to the Stellar Next.js project will be documented in this file.
 
-- Upgrade to Tailwind 4
-- Update other dependencies
+## [1.0.0] - 2025-12-07
 
-## [2.2.0] - 2024-12-08
+### Added
+- Initial project setup with Next.js 16 and TypeScript
+- Merged Open-Pro and Mosaic components into unified platform
+- Created home page with navigation to Intake and Admin sections
+- Implemented dynamic Intake page with form components (Open-Pro style)
+- Integrated Mosaic admin console with:
+  - Dashboard page with metrics and recent activity
+  - User management page with search and filter
+  - Settings page with system configuration
+  - Responsive sidebar navigation
+- Added reusable UI components:
+  - Button component with multiple variants and sizes
+  - Card component with optional header and footer
+  - Badge component for status indicators
+  - Input component with label and error states
+  - Tabs component for tabbed content
+- Configured Tailwind CSS with custom theme
+- Set up PostCSS and build pipeline
+- Added comprehensive README documentation
+- Created .gitignore for proper dependency management
 
-- Update dependencies + Upgrade to Next.js 15
-
-## [2.1.5] - 2024-11-30
-
-- Fix MDX content not rendering
-
-## [2.1.4] - 2024-11-03
-
-- Update Hamburger button
-
-## [2.1.3] - 2024-10-26
-
-- Update dependencies
-- Use CSS only for clients carousel
-
-## [2.1.1] - 2024-07-09
-
-- Minor improvements
-
-## [2.1.0] - 2024-07-05
-
-- Replace Contentlayer with MDX
-
-## [2.0.0] - 2023-12-11
-
-- Added 7 new pages
-- Update Next.js to 14
-
-## [1.1.2] - 2023-10-04
-
-- Update Twitter icon
-- Update dependencies
-
-## [1.1.0] - 2023-06-20
-
-- Fix issue with Google Fonts
-
-## [1.0.3] - 2023-05-15
-
-- Fix issue with clients carousel
-
-## [1.0.2] - 2023-05-06
-
-- Dependencies update
-
-## [1.0.1] - 2023-05-06
-
-- Dependencies update
-
-## [1.0.0] - 2023-04-19
-
-First release
+### Technical Details
+- Framework: Next.js 16 with App Router
+- Language: TypeScript 5
+- Styling: Tailwind CSS 4
+- Build Tool: Turbopack
+- Dependencies merged from both Open-Pro and Mosaic projects
