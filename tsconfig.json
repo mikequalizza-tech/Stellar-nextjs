@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "target": "ES2020",
     "lib": [
       "dom",
@@ -23,6 +25,7 @@
       }
     ],
     "paths": {
+      "@/*": ["./*"]
       "@/*": [
         "./*"
       ]
@@ -33,6 +36,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules"]
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [

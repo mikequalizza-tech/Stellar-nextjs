@@ -1,19 +1,21 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Stellar - Next.js Platform',
-  description: 'Stellar combines Open-Pro components with Mosaic admin console for a complete solution',
-}
+  title: "Stellar Next.js - tCredex Base with Open-Pro Theme",
+  description: "A Next.js application integrating tCredex base with Open-Pro as the main theme and Stellar components",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html lang="en">
-      <body className="font-inter">{children}</body>
+    <html lang="en" className="dark">
+      <body className="antialiased">
+        {children}
+      </body>
     </html>
-  )
+  );
 }
